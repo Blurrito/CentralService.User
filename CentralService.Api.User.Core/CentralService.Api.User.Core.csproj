@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CentralService.Api.User.DTO\CentralService.Api.User.DTO.csproj" />
+    <ProjectReference Include="..\CentralService.Api.User.Factories.Repositories\CentralService.Api.User.Factories.Repositories.csproj" />
+    <ProjectReference Include="..\CentralService.Api.User.Interfaces\CentralService.Api.User.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <UserSecretsId>57381993-2427-484e-a4f8-e209d42b9205</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.15">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.11.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CentralService.Api.User.DTO\CentralService.Api.User.DTO.csproj" />
+    <ProjectReference Include="..\CentralService.Api.User.Factories.Managers\CentralService.Api.User.Factories.Managers.csproj" />
+    <ProjectReference Include="..\CentralService.Api.User.Interfaces\CentralService.Api.User.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>
